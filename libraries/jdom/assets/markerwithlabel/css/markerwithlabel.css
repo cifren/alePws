@@ -1,0 +1,13 @@
+.map_container .youarehere{
+	color: #fff;
+	background-color: #52A552;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;  
+	border: 2px solid #000;
+	white-space: nowrap;
+	width: auto;
+	padding: 0 3px;
+	border-radius: 3px;
+}

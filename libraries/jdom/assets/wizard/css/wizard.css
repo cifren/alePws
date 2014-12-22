@@ -1,0 +1,148 @@
+﻿.wizard {
+  border: 1px solid ;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.wizard ul.steps li.step,
+ul.dropdown-menu.removeList li{
+	list-style: none outside none;
+	padding: 0;
+	margin: 0;
+}
+
+.wizard ul.steps {
+  list-style: none outside none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 4000px !important;
+  position:relative;
+}
+.wizard ul.steps.previous-disabled li.step.complete {
+  cursor: default;
+}
+.wizard ul.steps.previous-disabled li.step.complete:hover {
+  background: #f3f4f5;
+  color: ;
+  cursor: default;
+}
+.wizard ul.steps.previous-disabled li.step.complete:hover .chevron:before {
+  border-left-color: #f3f4f5;
+}
+.wizard ul.steps li.step {
+  float: left !important;
+  margin: 0 !important;
+  padding: 0 20px 0 30px !important;
+  height: 46px !important;
+  line-height: 46px !important;
+  position: relative !important;
+  background: #ffffff;
+  font-size: 16px !important;
+  cursor: default;
+}
+.wizard ul.steps li.step .chevron {
+  border: 24px solid transparent;
+  border-left: 14px solid ;
+  border-right: 0;
+  display: block;
+  position: absolute;
+  right: -14px;
+  top: 0;
+  z-index: 1;
+}
+.wizard ul.steps li.step .chevron:before {
+  border: 24px solid transparent;
+  border-left: 14px solid #ffffff;
+  border-right: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 1px;
+  top: -24px;
+}
+.wizard ul.steps li.step.complete {
+  background: #f3f4f5;
+  color: ;
+}
+.wizard ul.steps li.step.complete:hover {
+  background: #e7eff8;
+  cursor: pointer;
+}
+.wizard ul.steps li.step.complete:hover .chevron:before {
+  border-left: 14px solid #e7eff8;
+}
+.wizard ul.steps li.step.complete .chevron:before {
+  border-left: 14px solid #f3f4f5;
+}
+.wizard ul.steps li.step.active {
+  background: #f1f6fc;
+  color: ;
+}
+.wizard ul.steps li.step.active .chevron:before {
+  border-left: 14px solid #f1f6fc;
+}
+.wizard ul.steps li.step .badge {
+  margin-right: 8px;
+  border-radius: 2px;
+  padding: 3px 7px 2px;
+}
+.wizard ul.steps li.step:first-child {
+  border-radius: 4px 0 0 4px;
+  padding-left: 20px;
+}
+
+.wizard .actions {
+	display: table;
+}
+
+.wizard .actions .act {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 5px;
+}
+.wizard .actions .act .btn{
+	white-space:nowrap;
+}
+
+.wizard .actions {
+  z-index: 99;
+  position: absolute;
+  right: 0;
+  line-height: 46px;
+  height: 46px;
+  float: right;
+  vertical-align: middle;
+  background-color: #e5e5e5;
+  border-left: 1px solid ;
+}
+.wizard .actions a {
+  line-height: 45px;
+  font-size: 12px;
+  margin-right: 8px;
+}
+.wizard .actions .btn-prev i {
+  margin-right: 5px;
+}
+.wizard .actions .btn-next i {
+  margin-left: 5px;
+}
+.step-content{
+  padding: 10px;
+}
+
+.step-content .step-pane {
+  display: none;
+}
+.step-content .active {
+  display: block;
+}
+.step-content .active .btn-group .active {
+  display: inline-block;
+}
+
+.btn-next,
+.btn-prev {
+	white-space: nowrap;
+}

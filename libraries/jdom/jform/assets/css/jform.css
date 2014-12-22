@@ -1,0 +1,110 @@
+.control-group:not(.ml_group_fields):not([class*="span"]){
+	clear: both;
+}
+
+.ml_group_fields .control-group {
+	display: inline-block;
+}
+
+.ml_group_fields .control-group:not(:first-child) {
+	margin-left: 10px;
+}
+
+.jtags_info,
+.ml_tabs.nav-tabs > li > a {
+	padding: 3px 5px;
+	font-size: 80%;
+	font-style: italic;
+}
+
+.small {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: lighter;
+}
+
+.fly-color {
+
+}
+
+.fly-color-value {
+	font-style: italic;
+	opacity: 0.8;
+	font-size: 80%;
+	margin: 0;
+	line-height: 12px;
+	display: inline-block;
+}
+
+.jtags_info {
+	font-size: 10px;
+	font-style: italic;
+	opacity: 0.8;
+	line-height: 12px;
+}
+
+html .jForms_component_container input[disabled],
+html .jForms_component_container select[disabled],
+html .jForms_component_container textarea[disabled],
+html .jForms_component_container input[readonly],
+html .jForms_component_container select[readonly],
+html .jForms_component_container textarea[readonly] {
+	cursor: not-allowed;
+	background-color: #eee;
+}
+
+.label, .badge {
+	margin: 1px;
+}
+
+.modal-body .CodeMirror {
+	height: auto;
+}
+
+.loading {
+	left: 10px;
+	top: 5px;
+	position: relative;
+	font-style: italic;
+	color: green;
+	font-size: 14px;
+}
+
+.control-group .controls fieldset.radio {
+	margin: 0;
+	padding: 0;
+}
+
+.tooltip.in {
+	z-index: 1050;
+}
+
+/* fix weird layout */
+select option.icomoon[class^="icon-"],
+select option.icomoon[class*=" icon-"] {
+	display: list-item !important;
+}
+
+.sortable-handler {
+	margin-right: 5px;
+}
+
+.ckdatetimepicker_values {
+	display: inline-block;
+	padding-left: 2px;
+}
+
+.input-append.date {
+	white-space: normal;
+}
+
+.input-append.date > span {
+	display: inline-block;
+}
+
+.row-fluid .control-group.spanInline {
+    clear: inherit;
+    display: inline-block;
+    float: left;
+    width: auto;
+}

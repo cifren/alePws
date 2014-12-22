@@ -1,0 +1,15 @@
+.jdom-ajax-spinner {
+	width: 20px;
+	height: 20px;
+	/* position: absolute; */ 
+	position: relative;
+	background: url(../images/spinner.gif) center no-repeat;
+}
+.jdom-ajax-spinner-big {
+	width: 125px;
+	height: 125px;
+	/* position: absolute; */ 
+	position: relative;
+	margin:auto;
+	background: url(../images/spinner-big.gif) center no-repeat;
+}

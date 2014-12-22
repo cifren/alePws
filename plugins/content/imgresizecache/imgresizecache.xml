@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>plg_content_imgresizecache</name>
+	<author>S2 Software</author>
+	<creationDate>September 2013</creationDate>
+	<copyright>Copyright (C) 2012 - S2 Software. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>s.storti@s2software.it</authorEmail>
+	<authorUrl>www.s2software.it</authorUrl>
+	<version>1.1.5</version>
+	<description>PLG_IMGRESIZECACHE_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="imgresizecache">imgresizecache.php</filename>
+		<filename>resize.php</filename>
+		<filename>index.html</filename>
+		<folder>fields</folder>
+		<folder>test</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_content_imgresizecache.ini</language>
+		<language tag="en-GB">language/en-GB.plg_content_imgresizecache.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		
+			<fieldset name="basic">
+				<field name="imagick_process" type="list"
+					default="class"
+					label="PLG_IMGRESIZECACHE_FIELD_IMAGICKPROCESS_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_IMAGICKPROCESS_DESC">
+					<option value="exec">PLG_IMGRESIZECACHE_FIELD_VALUE_EXEC</option>
+					<option value="class">PLG_IMGRESIZECACHE_FIELD_VALUE_CONVERT</option>
+					<option value="jimage">PLG_IMGRESIZECACHE_FIELD_VALUE_JIMAGE</option>
+				</field>
+				
+				<field name="imagick_path_to_convert" type="text"
+					default="convert"
+					label="PLG_IMGRESIZECACHE_FIELD_PATHTOCONVERT_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_PATHTOCONVERT_DESC"
+				/>
+				
+				<field name="cache_folder" type="text"
+					default="images/cache"
+					label="PLG_IMGRESIZECACHE_FIELD_CACHEFOLDER_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_CACHEFOLDER_DESC"
+				/>
+				
+				<field type="spacer" name="image_sizes"
+					label="PLG_IMGRESIZECACHE_FIELD_NAME_IMAGESIZES_LABEL"
+				/>
+				
+				<field name="article_size" type="text"
+					default=""
+					label="PLG_IMGRESIZECACHE_FIELD_ARTICLESIZE_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_ARTICLESIZE_DESC"
+				/>
+				
+				<field name="image_intro_size" type="text"
+					default=""
+					label="PLG_IMGRESIZECACHE_FIELD_IMAGEINTROSIZE_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_IMAGEINTROSIZE_DESC"
+				/>
+				
+				<field name="image_fulltext_size" type="text"
+					default=""
+					label="PLG_IMGRESIZECACHE_FIELD_IMAGEFULLTEXTSIZE_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_IMAGEFULLTEXTSIZE_DESC"
+				/>
+				
+				<field name="size_definitions" type="textarea"
+					default=""
+					label="PLG_IMGRESIZECACHE_FIELD_SIZEDEFINITIONS_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_SIZEDEFINITIONS_DESC"
+					cols="30"
+					rows="5"
+				/>
+				
+				<field name="override_k2_image_sizes" type="checkbox"
+					default="0"
+					label="PLG_IMGRESIZECACHE_FIELD_OVERRIDEK2IMAGESIZES_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_OVERRIDEK2IMAGESIZES_DESC"
+					value="1"
+				/>
+			</fieldset>
+			
+			<fieldset name="test_imagick" label="PLG_IMGRESIZECACHE_FIELDSET_TESTIMAGICK_LABEL" addfieldpath="/plugins/content/imgresizecache/fields/">
+				
+				<field name="test_imagick_exec"
+					label="PLG_IMGRESIZECACHE_FIELD_TESTIMAGICKEXEC_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_TESTIMAGICKEXEC_DESC"
+					type="testimagick"
+				/>
+				
+				<field name="test_imagick_class"
+					label="PLG_IMGRESIZECACHE_FIELD_TESTIMAGICKCLASS_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_TESTIMAGICKCLASS_DESC"
+					type="testimagick"
+				/>
+				
+				<field name="test_imagick_jimage"
+					label="PLG_IMGRESIZECACHE_FIELD_TESTJIMAGE_LABEL"
+					description="PLG_IMGRESIZECACHE_FIELD_TESTJIMAGE_DESC"
+					type="testimagick"
+				/>
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="library" version="2.5" method="upgrade">
+	<name>Libraries ByGiro</name>
+	<libraryname>librariesbygiro</libraryname>
+	<version>0.0.6</version>
+	<creationDate>06 jan 2014</creationDate>
+	<copyright>(C) 2013 G. Tomaselli</copyright>
+	<author>G. Tomaselli</author>
+	<authorEmail>girotomaselli@gmail.com</authorEmail>
+	<authorUrl>http://bygiro.com</authorUrl>
+	<license>GNU GPL v3 or later</license>
+	<description><![CDATA[
+	<div style="text-align: left;">
+	Collection of PHP libraries, integrated in JOOMLA by G. Tomaselli (http://bygiro.com).
+		<ul>
+			<li><a href="https://github.com/dompdf/dompdf">dompdf 0.6</a></li>
+			<li><a href="https://github.com/bobthecow/mustache.php">Mustache</a></li>
+			<li><a href="https://github.com/PHPOffice/PHPExcel">PHPExcel</a></li>
+		</ul>
+	</div>
+	]]></description>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Libraries ByGiro Updates">http://bygiro.com/images/downloads/updates/lib_librariesbygiro_update.xml</server>
+	</updateservers>
+
+	<files folder="librariesbygiro">
+		<folder>dompdf</folder>
+		<folder>Mustache</folder>
+		<folder>excel</folder>
+		<filename>index.html</filename>
+	</files>
+</extension>

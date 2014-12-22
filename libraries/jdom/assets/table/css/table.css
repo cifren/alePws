@@ -1,0 +1,69 @@
+div.modal.popupform.fade.in {
+	width: 90%; /* desired relative width */
+	left: 5%; /* (100%-width)/2 */
+	/* place center */
+	margin-left:auto;
+	margin-right:auto;
+	overflow: visible;
+}
+
+table[data-repeatable] td.id_cln,
+table[data-repeatable] th.actions_cln,
+table[data-repeatable] td.actions_cln,
+table[data-repeatable] td.enabled_cln,
+table[data-repeatable] td.counter_cln,
+table[data-repeatable] td.ordering_cln {
+	text-align: center;
+	vertical-align: middle;
+}
+
+table[data-repeatable] th.actions_cln {
+	width: 150px;
+}
+
+table[data-repeatable] th.ordering_cln,
+table[data-repeatable] th.enabled_cln {
+	width: 50px;
+}
+
+table[data-repeatable] td.counter_cln,
+table[data-repeatable] td.id_cln{
+	width: 10px;
+}
+
+table[data-repeatable] .btn-toolbar {
+	margin: 0;
+}
+
+table[data-repeatable] .btn-group > .btn i.icon-white:before {
+	color: #ffffff;
+}
+
+.actions_options {
+	display: table;
+	margin: auto;
+}
+
+.actions_options li{
+	list-style-type: none;
+	display: table-cell;
+	white-space: nowrap;
+	padding: 0 2px;
+	margin: 0;
+}
+
+.actions_options input[type="checkbox"] {
+	margin: 0;
+}
+
+
+.actions_options label {
+	font-size: 10px;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+
+.actions_options li .tooltip-inner {
+	white-space: normal;
+}

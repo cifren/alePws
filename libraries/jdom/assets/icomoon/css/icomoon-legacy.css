@@ -1,0 +1,59 @@
+/* Desactivate .icon-*  */
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inherit;
+	width: inherit;
+	height: inherit;
+	*margin-right: inherit;
+	line-height: inherit;
+}
+
+/* Use a different name ._icon-*  */
+[class^="_icon-"],
+[class*=" _icon-"] {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	*margin-right: .3em;
+	line-height: inherit;
+}
+
+
+.btn-primary.active .icon-publish:before,
+.btn-primary.active .icon-save:before,
+.btn-primary.active .icon-ok:before,
+.btn-primary.active .icon-checkmark:before,
+.btn-warning.active .icon-publish:before,
+.btn-warning.active .icon-save:before,
+.btn-warning.active .icon-ok:before,
+.btn-warning.active .icon-checkmark:before,
+.btn-danger.active .icon-publish:before,
+.btn-danger.active .icon-save:before,
+.btn-danger.active .icon-ok:before,
+.btn-danger.active .icon-checkmark:before,
+.btn-success.active .icon-publish:before,
+.btn-success.active .icon-save:before,
+.btn-success.active .icon-ok:before,
+.btn-success.active .icon-checkmark:before,
+.btn-info.active .icon-publish:before,
+.btn-info.active .icon-save:before,
+.btn-info.active .icon-ok:before,
+.btn-info.active .icon-checkmark:before,
+.btn-inverse.active .icon-publish:before,
+.btn-inverse.active .icon-save:before,
+.btn-inverse.active .icon-ok:before,
+.btn-inverse.active .icon-checkmark:before,
+.btn-primary.active [class^="_icon-"]:before,
+.btn-primary.active [class*=" _icon-"]:before,
+.btn-warning.active [class^="_icon-"]:before,
+.btn-warning.active [class*=" _icon-"]:before,
+.btn-danger.active [class^="_icon-"]:before,
+.btn-danger.active [class*=" _icon-"]:before,
+.btn-success.active [class^="_icon-"]:before,
+.btn-success.active [class*=" _icon-"]:before,
+.btn-info.active [class^="_icon-"]:before,
+.btn-info.active [class*=" _icon-"]:before,
+.btn-inverse.active [class^="_icon-"]:before,
+.btn-inverse.active [class*=" _icon-"]:before{
+	color: rgba(255, 255, 255, 0.95) !important;
+}

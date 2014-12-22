@@ -1,0 +1,30 @@
+.typeahead {
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.map_container {
+	height: 100%;
+}
+
+.picker_map {
+	width:100%;
+	min-height: 350px;
+	height: 100%;
+}
+
+.picker_search_btn {
+	margin-left: 5px;
+}
+
+/* fix modal */
+div.addresspicker.modal.fade.in {
+	top: 10%;
+	z-index: 1050;
+	width: 90%;
+	left: 5%;
+	margin-left:auto;
+	margin-right:auto;
+	position: fixed;
+}

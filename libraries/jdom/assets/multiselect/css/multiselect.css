@@ -1,0 +1,44 @@
+.select-many-selected {
+  margin: 0;
+}
+
+.select-many-selected, .select-many-selected li {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.select-many-selected li {
+    background: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0 5px;
+	margin: 1px;
+	font-style:italic;
+}
+
+.select-many-selected li:after {
+  content:'\00D7';
+}
+
+.select-many-selected li:hover {
+  background-color: #e7e7e7;
+}
+
+.select-many option[disabled] {
+	font-style:italic;
+	background: #eee;
+	font-weight: bold;
+}
+
+input[type="text"].multiselect_custom_values {
+	width: 80px;
+	margin: 0;
+	margin-left: 3px;
+}
+
+.btn_add_custom_value {
+	cursor: pointer;
+	margin-left: 3px;
+}

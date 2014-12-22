@@ -1,0 +1,6 @@
+input[disabled],
+option[disabled] {
+	font-style:italic;
+	background: #eee;
+	font-weight: bold;
+}

@@ -1,0 +1,46 @@
+body.dragging,
+body.dragging *,
+.sortable-handler {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+.sortablePlaceholder {
+  position: relative;
+  /** More li styles **/
+}
+.sortablePlaceholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+
+.sortablePlaceholder:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(0, 0, 0, 0) -moz-use-text-color rgba(0, 0, 0, 0) #FF0000;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 5px medium 5px 5px;
+    content: "";
+    height: 0;
+    left: -5px;
+    margin-top: -5px;
+    position: absolute;
+    width: 0;
+}
+
+.sortablePlaceholder {
+    background: none repeat scroll 0 0 #FF0000;
+    border: medium none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}

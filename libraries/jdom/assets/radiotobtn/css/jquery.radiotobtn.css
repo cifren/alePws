@@ -1,0 +1,8 @@
+.radioToBtn-hidden {
+	display: none !important;
+}
+
+.radioToBtn-btn:not(.active) .icomoon[class^="icon-"],
+.radioToBtn-btn:not(.active) .icomoon[class*=" icon-"] {
+	
+}

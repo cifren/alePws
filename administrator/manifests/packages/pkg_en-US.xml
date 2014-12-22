@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.3">
+	<name>English en-US Language Pack</name>
+	<packagename>en-US</packagename>
+	<version>3.3.1.1</version>
+	<creationDate>2014-6-12</creationDate>
+	<author>Aussiesrus - Australia</author>
+	<authorEmail>admin@aussiesrus.com.au</authorEmail>
+	<authorUrl>www.aussiesrus.com.au</authorUrl>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+<description>3.3.1.1 Joomla! English (United States) Language Package</description>
+<files>
+        <file type="language" client="administrator" id="en-US">admin_en-US.zip</file>
+        <file type="language" client="site" id="en-US">site_en-US.zip</file>
+</files>
+<updateservers>
+        <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+    </updateservers>
+</extension>

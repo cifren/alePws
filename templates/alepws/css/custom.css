@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8-Dec-2014, 3:05:34 PM
+    Author     : Maellou
+*/
+
+
+.t3-header{
+    background:url("../images/background-header.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+.site-slogan{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #46c82d;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #46c82d;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    color: white;
+    background-color: #46c82d;
+}
+
+.t3-megamenu .mega-nav > li a:hover, .t3-megamenu .dropdown-menu .mega-nav > li a:hover, .t3-megamenu .mega-nav > li a:focus, .t3-megamenu .dropdown-menu .mega-nav > li a:focus{
+    color: white;
+    background-color: #46c82d;   
+}
+
+.t3-megamenu .mega-nav > li a, .t3-megamenu .dropdown-menu .mega-nav > li a{
+    color: #46c82d;
+}
+
+.dropdown-menu{
+    font-size: 11px;
+}
+
+.navbar-default .navbar-nav > .open > a .caret, .navbar-default .navbar-nav > .open > a:hover .caret, .navbar-default .navbar-nav > .open > a:focus .caret{
+    border-top-color: white;
+    border-bottom-color: white;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret{
+    border-top-color: #46c82d;
+    border-bottom-color: #46c82d; 
+}
+
+
+.navbar-nav{
+    font-size: 11.7px;
+}
+
+.t3-sidebar{
+    border-color: #91825b;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+a {
+    color: #46c82d;
+   }
+
+.gmaps {
+    padding: 8px 8px 0px 8px;
+    background: #fff;
+    box-shadow: 0px 0px 2px #aaa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.gmaps iframe {
+    width: 100%;
+    box-shadow: 0px 0px 3px #aaa;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.article-title{
+    color: #46c82d;
+    font-weight: 100;
+    text-transform: capitalize;
+    }
+
+.inicio-articles article{
+    background-color: rgba(243, 232, 210, 0.25);
+    padding: 20px; 
+    border-bottom: solid 2px #91825b;
+    border-radius: 40px;
+    }
+
+.article-listing article{
+    background-color: rgba(243, 232, 210, 0.25);
+    padding: 20px; 
+    
+   }
+
+   .article-listing .article-title{
+       text-align: center;
+   }
+
+   .comentarios-menu article{
+        padding: 20px; 
+        }
+
+.test {
+border-bottom: 2px solid #91825b;
+padding: 15px;
+background-color: rgba(243, 232, 210, 0.25);
+}
+
+.test-arrow {
+border-style: dashed;
+border-color: transparent;
+border-width: 0.63em;
+border-top-color: #91825b;
+display: -moz-inline-box;
+display: inline-block;
+font-size: 12px;
+height: 0;
+line-height: 0;
+position: relative;
+vertical-align: middle;
+width: 15px;
+border-top-width: 17px;
+border-top-style: solid;
+top: -2px;
+left: 9px;
+}
+
+.item-page.article-listing .article-aside {
+    margin: 0px;
+}
+
+.blog.article-listing .article-title{
+    font-size: 20px;
+}
+
+.blog.article-listing article {
+    height: 510px;
+   }
+   
+   .item-page.article-listing table{
+       border: #91825b solid 2px;
+       border-collapse: collapse;
+              
+   }
+   
+   .item-page.article-listing table td, table th {
+       border: #91825b solid 2px;
+       border-collapse: collapse;
+              
+   }
+   
+   .item-page.article-listing .article-title {
+    margin: 0px;
+   }
+
+.item-page.article-listing h2{
+     color: #46c82d;
+    font-weight: 100;
+    text-transform: capitalize;
+    text-align: center;
+    }
+    
+        
+    .item-page.article-listing .page-header{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .blog a:hover, a:focus{
+        color: white;
+        text-decoration: none;
+        background-color: #46c82d;
+        padding: 5px;
+    }
+    
+    .category-name a:hover, a:focus{
+        color: white;
+        text-decoration: none;
+        background-color: #46c82d;
+        padding: 5px;  
+    }

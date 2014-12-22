@@ -1,0 +1,78 @@
+.controls .cloner_container .btn-group.btn-group-yesno > .btn,
+.controls .cloner_container .btn-group > .btn {
+	min-width: 0;
+}
+
+.controls .cloner_container .btn-group:not(.radio) > .btn:not(.radioToBtn-btn) i:before{
+	color: #ffffff;
+}
+
+.cloner_container th label {
+	margin: 0;
+	font-weight: bold;
+}
+
+.cloner_container .sortable-handler .icon-menu.icomoon{
+	position: relative;
+	top: 2px;
+}
+
+.cloner_container textarea.oneline {
+	height: 20px;
+	width: 400px;
+}
+
+.cloner_container textarea.oneline-short {
+	height: 20px;
+	width: 80px;
+}
+
+.cloner_container td.actions {
+	white-space: nowrap;
+}
+
+.cloner_container .accordion-heading a,
+.cloner_container .accordion-heading a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cloner_container .accordion-heading .accordion-toggle .head_info{
+
+}
+
+.info_block{
+	width: 100px;
+	margin-right: 10px;
+	margin: 0;
+	display: inline-block;
+}
+
+.cloner_container .accordion-heading .accordion-toggle .colon {
+    font-size: 80%;
+    font-style: italic;
+    font-weight: bold;
+	margin-right: 6px;
+	color: #999999;
+}
+
+.cloner_container .accordion-heading .accordion-toggle label {
+    display: inline-block;
+    font-size: 80%;
+    font-style: italic;
+    font-weight: bold;
+	margin: 0;
+	color: #999999;
+}
+
+/* custom CSS */
+.cloner_container .accordion-heading .accordion-toggle  .info_block.group_to,
+.cloner_container .accordion-heading .accordion-toggle  .info_block.group_subject {
+	width: auto;
+	margin: 0 10px;
+}
+/* custom CSS */
+
+.itemform_repeatable {
+	display: none;
+}
